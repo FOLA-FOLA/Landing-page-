@@ -7,12 +7,31 @@
     flex-direction: row;
     color: #F9FAF8;
     height: 50px;
+    width: 100%;
 }
-
+.logo {
+    width: 500px;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    display: block;
+}
+.nav menu {
+    display: flex;
+    width: 50%;
+}
+.navitem {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .container {
     padding-left: 50px;
     padding-right: 50px;
     display:flex;
+    text-align: left;
+    margin: auto;
+    width: auto;
 }
 .hero {
     padding-top: 100px;
@@ -20,14 +39,24 @@
     background-color: #1F2937;
     margin-top: 0px;
     color: #F9FAF8;
-    text-align: left;
+    height: 350px;
+}
+.heroimg{
+    color: #dedede;
+    text-align: center;
+    height: 100%;
+    width: auto;
 }
 .herotext {
-    max-width: 60%;
+    max-width: 50%;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #cfcfcf;
 }
 h1 {
     font-size: 48px;
     font-weight: 50px;
+    color: #F9FAF8;
 }
 .pro {
     display:flex;
@@ -43,7 +72,6 @@ h1 {
 .testimonial {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 100px;
     background-color: #cccbcb;
     color: #1F2937;
     font-size: 36px;
@@ -52,20 +80,82 @@ h1 {
     text-align: right;
     font-size: 30px;
 }
+.cta {
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    height: 300px;
+}
+.bl {
+    padding-top: 80px;
+}
+.blue {
+    margin: auto;
+    display: flex;
+    background-color: #3882F6;
+    width: 80%;
+    color: #F9FAF8;
+    padding-left: 40px;
+    padding-right: 40px; 
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.words {
+    display: block;
+    width: 70%;
+}
+.saybut {
+    text-align: center;
+    background-color: transparent;
+    margin: auto;
+    width: auto;
+}
+.now {
+    max-width: 70%;
+}
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
     height: 50px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .card {
     border-color: #3882F6;
-    height: 100px;
     display: block;
+    min-height: 200px;
 }
 .cards {
     display: flex;
     flex-direction: row;
     text-align: center;
+}
+.car {
+    border-color: #3882F6;
+    border-width: 10px;
+    border-style: solid;
+    display: block;
+    min-height: 200px;
+    border: #3882F6;
+}
+.hibutton {
+    background-color: transparent;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-style: 3px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40%;
+    margin-bottom: auto;
+    box-shadow: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.signup {
+    background-color: #3882F6;
+    padding: 10px;
+    color: #F9FAF8;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
 }
