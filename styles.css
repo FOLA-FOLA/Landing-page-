@@ -7,19 +7,27 @@
     flex-direction: row;
     color: #F9FAF8;
     height: 50px;
-
 }
+
 .container {
-    margin: 20px;
     padding-left: 50px;
     padding-right: 50px;
     display:flex;
 }
 .hero {
+    padding-top: 100px;
+    padding-bottom: 40px;
     background-color: #1F2937;
     margin-top: 0px;
     color: #F9FAF8;
     text-align: left;
+}
+.herotext {
+    max-width: 60%;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 50px;
 }
 .pro {
     display:flex;
@@ -28,11 +36,21 @@
 }
 .one {
     flex-direction: column;
-    text-align: center
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .testimonial {
-    background-color: #ESE7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    background-color: #cccbcb;
     color: #1F2937;
+    font-size: 36px;
+}
+.rom {
+    text-align: right;
+    font-size: 30px;
 }
 footer {
     background-color: #1F2937;
