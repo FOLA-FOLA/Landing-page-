@@ -9,6 +9,9 @@
     height: 50px;
     width: 100%;
 }
+.hr {
+    padding: 0px;
+}
 .logo {
     width: 500px;
     text-align: left;
@@ -19,6 +22,7 @@
 .nav menu {
     display: flex;
     width: 50%;
+    margin-left: 50%;
 }
 .navitem {
     display: inline-block;
@@ -94,20 +98,11 @@ h1 {
     background-color: #3882F6;
     width: 80%;
     color: #F9FAF8;
-    padding-left: 40px;
-    padding-right: 40px; 
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding: 20px 70px;
 }
 .words {
     display: block;
     width: 70%;
-}
-.saybut {
-    text-align: center;
-    background-color: transparent;
-    margin: auto;
-    width: auto;
 }
 .now {
     max-width: 70%;
@@ -123,7 +118,7 @@ footer {
 .card {
     border-color: #3882F6;
     display: block;
-    min-height: 200px;
+    min-height: 300px;
 }
 .cards {
     display: flex;
@@ -131,31 +126,25 @@ footer {
     text-align: center;
 }
 .car {
-    border-color: #3882F6;
-    border-width: 10px;
-    border-style: solid;
+    border: 2px solid #3882F6;
     display: block;
-    min-height: 200px;
-    border: #3882F6;
+    height: 70%;
+    margin: auto 10px;
 }
 .hibutton {
     background-color: transparent;
-    border-color: #F9FAF8;
     color: #F9FAF8;
-    border-style: 3px solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 40%;
+    border: 2px solid #F9FAF8;
+    margin-top: 50%;
     margin-bottom: auto;
-    box-shadow: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 20px;
 }
 .signup {
     background-color: #3882F6;
-    padding: 10px;
+    padding: 10px 20px;
     color: #F9FAF8;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: 40px;
+}
+.hibutton, .signup, .blue, .car {
+    border-radius: 10px;
 }
